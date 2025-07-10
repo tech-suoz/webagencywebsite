@@ -46,34 +46,34 @@ License: copyright commercial
 @import url("tm-bs-mp.css");
 @import url("tm-utility-classes.css");
 :root {
-  --theme-color1: #fa1112;
-  --theme-color2: #ffffff;
-  --theme-color3: #171717;
-  --theme-color4: #ff8528;
-  --theme-color5: #181818;
-  --theme-color-dark: #000000;
+  --theme-color1: #2563eb; /* Primary Blue */
+  --theme-color2: #f1f5f9; /* Light Blue Gray */
+  --theme-color3: #1e293b; /* Deep Navy Blue */
+  --theme-color4: #38bdf8; /* Accent Sky Blue */
+  --theme-color5: #0f172a; /* Almost Black for contrast */
+  --theme-color-dark: #1e293b;
   --theme-color-light: #ffffff;
   --theme-color-white: #ffffff;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
   --bg-theme-color3: var(--theme-color3);
   --bg-theme-color4: var(--theme-color4);
-  --theme-color1-rgb: 250, 17, 18;
-  --theme-color2-rgb: 255, 255, 255;
-  --theme-color3-rgb: 23, 23, 23;
-  --theme-color4-rgb: 255, 133, 40;
+  --theme-color1-rgb: 37, 99, 235;
+  --theme-color2-rgb: 241, 245, 249;
+  --theme-color3-rgb: 30, 41, 59;
+  --theme-color4-rgb: 56, 189, 248;
   --border-theme-color1: var(--theme-color1);
   --border-theme-color2: var(--theme-color2);
   --border-theme-color3: var(--theme-color3);
   --border-theme-color4: var(--theme-color4);
   --text-color-bg-theme-color1: #fff;
-  --text-color-bg-theme-color2: #fff;
-  --text-color-bg-theme-color3: #fff;
-  --text-color-bg-theme-color4: #fff;
-  --text-color: #646464;
-  --headings-color: var(--theme-color3);
+  --text-color-bg-theme-color2: #1e293b;
+  --text-color-bg-theme-color3: #f1f5f9;
+  --text-color-bg-theme-color4: #1e293b;
+  --text-color: #334155;
+  --headings-color: var(--theme-color5);
   --link-color: var(--theme-color1);
-  --link-hover-color: var(--theme-color1);
+  --link-hover-color: var(--theme-color4);
   --text-font: "Montserrat", sans-serif;
   --title-font: "Montserrat", sans-serif;
   --style-font: "Ms Madi", cursive;
@@ -104,7 +104,7 @@ License: copyright commercial
   --sec-title-font-size: var(--h2-font-size);
   --sec-title-font-family: var(--title-font);
   --sec-title-font-weight: var(--h2-font-weight);
-  --theme-light-background: #f8f6f1;
+  --theme-light-background: #f1f5f9;
   --theme-light-background-text-color: var(--headings-color);
   --theme-black: #222429;
   --container-width: 1200px;
@@ -4307,7 +4307,7 @@ Scroll To Top style
   width: 91%;
 }
 .service-item .text .info {
-  background-color: rgba(250, 17, 18, 0.9);
+  background-color: var(--theme-color1);
   border-top-right-radius: 0;
   border-radius: 5px;
   padding: 28px 30px;
@@ -4940,7 +4940,7 @@ Scroll To Top style
 .video-area .image .overlay::before {
   width: 594px;
   height: 594px;
-  background-color: rgba(250, 17, 18, 0.9);
+  background-color: var(--theme-color1);
   border-radius: 50%;
   content: "";
   position: absolute;
