@@ -7033,7 +7033,7 @@ Scroll To Top style
 }
 .contact-form-area .contact-form .form-control,
 .contact-form-area .contact-form select {
-  background-color: #f2f2f6;
+  background-color: #dee2e6f7;
   height: 63px;
   color: #717175;
   font-size: 14px;
@@ -7047,7 +7047,7 @@ Scroll To Top style
 }
 .contact-form-area .contact-form .textarea textarea {
   height: 139px;
-  background-color: #f2f2f6;
+  background-color: #dee2e6f7;
   color: #717175;
   font-size: 14px;
   font-weight: 500;
